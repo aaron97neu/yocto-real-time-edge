@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="CAF" fetch="https://source.codeaurora.org/external"/>
+  <!--<remote name="CAF" fetch="https://source.codeaurora.org/external"/>-->
+  <remote name="NXP-QORIQ" fetch="https://github.com/nxp-qoriq/"/>
   <remote name="OSSystems" fetch="https://github.com/OSSystems"/>
   <remote name="QT6" fetch="https://code.qt.io/yocto"/>
   <remote name="Timesys" fetch="https://github.com/TimesysGit"/>
   <remote name="clang" fetch="https://github.com/kraj"/>
   <remote name="community" fetch="https://github.com/Freescale"/>
-  <remote name="imx-support" fetch="https://source.codeaurora.org/external/imxsupport"/>
+  <!--<remote name="imx-support" fetch="https://source.codeaurora.org/external/imxsupport"/>-->
   <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
@@ -39,7 +40,7 @@
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="fb77606aef461910db4836bad94d75758cc2688c" upstream="honister"/>
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="5753d1522526ce5e9ef8df138e151aa9248016ac"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="ed52ba982179087ecc84f7dc3b0a16cfe25f2f8e" upstream="honister"/>
-  <project name="qoriq/qoriq-components/meta-qoriq" path="sources/meta-qoriq" remote="CAF" revision="8ec8a191e5eb3444a61399a54e4370937b5bb944" upstream="honister" />
+  <project name="qoriq/qoriq-components/meta-qoriq" path="sources/meta-qoriq" remote="NXP-QORIQ" revision="8ec8a191e5eb3444a61399a54e4370937b5bb944" upstream="honister" />
   <project name="meta-cpan" path="sources/meta-cpan" remote="cpan" revision="3d82a95da95395c20ae13a89dd7de0cebcc27bfa" />
   <project name="meta-rtos-industrial" path="sources/meta-rtos-industrial" remote="NXPmicro" revision="146a2e10008ca0c2025a339a3766a3d09c0a44e4"/>
   <project name="meta-real-time-edge" path="sources/meta-real-time-edge" remote="real-time-edge" revision="f1fd2ab1b13177580c6c8770413911a63a027732">
