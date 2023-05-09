@@ -2,6 +2,7 @@
 <manifest>
   <!--<remote name="CAF" fetch="https://source.codeaurora.org/external"/>-->
   <remote name="NXP-QORIQ" fetch="https://github.com/nxp-qoriq/"/>
+  <remote name "Meta-IMX" fetch="https://github.com/nxp-imx/"/>
   <remote name="OSSystems" fetch="https://github.com/OSSystems"/>
   <remote name="QT6" fetch="https://code.qt.io/yocto"/>
   <remote name="Timesys" fetch="https://github.com/TimesysGit"/>
@@ -27,7 +28,7 @@
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="ed3435620a2404c241fef3c4ef90d1f31d3b7a8a" upstream="honister"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="155ffd6d7b694d8de76919c25681ecb98882646e" upstream="honister"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="d2e27cc4778663450495a67bfb036cba600cb27a" upstream="honister"/>
-  <project name="imx/meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.15.5_1.0.1" upstream="honister-5.15.5-1.0.0"/>
+  <project name="meta-imx" path="sources/meta-imx" remote="Meta-IMX" revision="refs/tags/rel_imx_5.15.5_1.0.1" upstream="honister-5.15.5-1.0.0"/>
 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="4bbe714267b730df020438fe83ae2c7c91708045"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="4647e3ea3708d30eeb0149f6d5626c9576bff520" upstream="honister"/>
@@ -40,7 +41,7 @@
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="fb77606aef461910db4836bad94d75758cc2688c" upstream="honister"/>
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="5753d1522526ce5e9ef8df138e151aa9248016ac"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="ed52ba982179087ecc84f7dc3b0a16cfe25f2f8e" upstream="honister"/>
-  <project name="qoriq/qoriq-components/meta-qoriq" path="sources/meta-qoriq" remote="NXP-QORIQ" revision="8ec8a191e5eb3444a61399a54e4370937b5bb944" upstream="honister" />
+  <project name="meta-qoriq" path="sources/meta-qoriq" remote="NXP-QORIQ" revision="8ec8a191e5eb3444a61399a54e4370937b5bb944" upstream="honister" />
   <project name="meta-cpan" path="sources/meta-cpan" remote="cpan" revision="3d82a95da95395c20ae13a89dd7de0cebcc27bfa" />
   <project name="meta-rtos-industrial" path="sources/meta-rtos-industrial" remote="NXPmicro" revision="146a2e10008ca0c2025a339a3766a3d09c0a44e4"/>
   <project name="meta-real-time-edge" path="sources/meta-real-time-edge" remote="real-time-edge" revision="f1fd2ab1b13177580c6c8770413911a63a027732">
