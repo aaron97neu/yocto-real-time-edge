@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--<remote name="CAF" fetch="https://source.codeaurora.org/external"/>-->
-  <remote name="NXP-QORIQ" fetch="https://github.com/nxp-qoriq/"/>
-  <remote name "Meta-IMX" fetch="https://github.com/nxp-imx/"/>
+  <remote name="NXP-QORIQ" fetch="https://github.com/nxp-qoriq"/>
+  <remote name="Meta-IMX" fetch="https://github.com/nxp-imx"/>
   <remote name="OSSystems" fetch="https://github.com/OSSystems"/>
   <remote name="QT6" fetch="https://code.qt.io/yocto"/>
   <remote name="Timesys" fetch="https://github.com/TimesysGit"/>
